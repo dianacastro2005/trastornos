@@ -1,0 +1,27 @@
+
+.navbar .container {
+    background: var(--white-color);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+.navbar-brand {
+  color: var(--dark-color);
+}
+
+.navbar-brand:hover{
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--p-color);
+}
+
+.navbar .custom-btn {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.is-sticky .navbar .custom-btn:hover {
+  background: var(--secondary-color);
+  color: var(--white-color);
+}
